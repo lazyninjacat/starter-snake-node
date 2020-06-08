@@ -40,7 +40,7 @@ function handleMove(request, response) {
 
   console.log('MOVE: ' + move)
   response.status(200).send({
-    move: move
+    move: move 
   })
 }
 
