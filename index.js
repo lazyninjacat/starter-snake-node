@@ -18,9 +18,9 @@ function handleIndex(request, response) {
   var battlesnakeInfo = {
     apiversion: '1',
     author: 'lzynja',
-    color: '#000BFF',
-    head: 'default',
-    tail: 'default'
+    color: '#3E338F',
+    head: 'pixel',
+    tail: 'curled'
   }
   response.status(200).json(battlesnakeInfo)
 }
